@@ -1,8 +1,7 @@
 #!/usr/local/bin/python
 import random
 
-from algorithms.bubble_sort import bubble_sort
-from algorithms.quick_sort import quick_sort
+from algorithms.selection_sort import selection_sort
 
 
 def main():
@@ -10,7 +9,7 @@ def main():
     values = []
     for x in range(10000):
         values.append(random.randint(1, 10000))
-    quick_sort(values)
+    selection_sort(values)
 
 
 if __name__ == '__main__':
