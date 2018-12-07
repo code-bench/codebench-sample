@@ -1,7 +1,7 @@
 #!/usr/local/bin/python
 import random
 
-from algorithms.selection_sort import selection_sort
+from algorithms.bucket_sort import bucket_sort
 
 
 def main():
@@ -9,7 +9,7 @@ def main():
     values = []
     for x in range(10000):
         values.append(random.randint(1, 10000))
-    selection_sort(values)
+    bucket_sort(values)
 
 
 if __name__ == '__main__':
