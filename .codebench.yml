@@ -1,0 +1,11 @@
+before_each: ./before_script.sh
+
+script: ./benchmark.py
+
+report_types:
+  - chart
+
+commits:
+  - cb91b8
+  - 3cd96d
+  - bb1541
